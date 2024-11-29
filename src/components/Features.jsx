@@ -46,7 +46,7 @@ const BentoCard = ({ src, title, description }) => {
 				src={src}
 				loop
 				muted
-				autoplay
+				autoPlay
 				className="absolute left-0 top-0 size-full object-cover object-center"
 			/>
 			<div className="relative z-10 flex size-full flex-col justify-between p-5 text-blue-50">
@@ -139,7 +139,7 @@ const Features = () => {
 							src="videos/feature-5.mp4"
 							loop
 							muted
-							autoplay
+							autoPlay
 							className="size-full object-cover object-center"
 						></video>
 					</BentoTilt>
